@@ -1,0 +1,15 @@
+body{
+    font: normal 12pt Tahoma;
+    background-color:rgb(11, 42, 73);
+}
+h1{
+    font:x-large 12pt Tahoma;
+    color: rgb(207, 195, 25);
+    font-style: bold;
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+p{
+    color: white;
+}

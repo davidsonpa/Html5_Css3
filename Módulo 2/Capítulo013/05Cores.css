@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap');
+@font-face {
+  font-family: myFont;
+  src: url('fonts/soulmate.ttf');
+}
+*{
+    font-family: 'Work Sans',Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+body{
+    background-image: linear-gradient(to left ,#6a7c7e,#819799,#B6D6D9,#C1E2E6,#A1BDBF);
+}
+
+main{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #8dc7cc;
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+  font-style: normal;
+}
+
+img{
+    padding-right: 10px;
+    align-items: center;
+    align-self: auto;
+}
+p{
+  font-size: 16px;
+  font-style: inherit;
+  /*
+     1cm
+     1mm
+     16px ( tamanho natural = 1em )
+     16pt
+  */
+  text-align: justify;
+  /* Shorthand font
+  font-family: 'Work Sans',sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+
+  - font-style => font-weight => font-size => font-family
+  */
+  font: normal bolder 0.8em 'Work Sans', sans-serif;
+}
+
+h1{
+  color: #4B5859;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(61, 34, 34);
+  font: normal bolder 0.8em 'myFont', sans-serif;
+}
+
+h2{
+ color: #819799;
+ text-align: justify;
+}
